@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+
+* {
+	box-sizing: border-box;
+	animation-name: fadein;
+	animation-duration: 0.5s;
+}
+
+a {
+	color: orange;
+}
+
+body {
+	background-color: rgb(50, 76, 86);
+	text-align: center;
+	color:white;
+	font-family: 'Share Tech Mono', monospace;
+}
+
+header {
+	background-image: url('images/Space_test.jpg');
+	background-position: 50%;
+	background-size: cover;
+ 	background-repeat: no-repeat;
+	padding: 10px;
+}
+
+section > a {
+	border: orange solid 1px;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	transition: 0.5s;
+}
+
+section > a:hover {
+	background-color: orange;
+	color: white;
+}
+
+header > div {
+	background-color: rgba(120,120,120,0.45);
+	width: 100%;
+	margin-top: -30px;
+}
+
+article {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+}
+
+section {color: black;
+padding: 20px;
+box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.29), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+
+p {padding: 10px;}
+
+video {width: 50%; z-index: 0;}
+
+.square {width: 30%; padding: 5px; height: 200px; display: inline-block; vertical-align: top;
+		background-size: cover;
+		background-position: 50% 50%;
+		margin: 10px;
+}
+
+.main{
+  width: 80%px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+
+.NavBar {
+	background-color: rgb(120,120,120);
+	padding: 10px;
+	border-top: black 1px solid;
+	border-bottom: black 1px solid;
+}
+
+.head-hold {
+	position: sticky;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.29), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+	z-index: 1;
+}
+
+.NavBar > a {
+	color:white;
+	text-decoration: none;
+	width: 120px;
+	padding: 5px;
+	font-size: 12pt;
+	border-left: black 1px solid;
+	border-right: black 1px solid;
+	-ms-transform: skewX(-20deg);
+  	-webkit-transform: skewX(-20deg);
+  	transform: skewX(-20deg);
+  	display: inline-block;
+  	transition: 0.3s;
+}
+
+.NavBar > a:hover {
+	color:orange;
+}
+.pageTitle {
+	color: orange;
+	text-align: center;
+	font-size: 46pt;
+	vertical-align: middle;
+	padding: 5px;
+	font-family: 'Audiowide', cursive;
+}
+
+.slogan {
+	color: white;
+	text-align: center;
+	font-size: 22pt;
+	text-transform: uppercase;
+	margin-top: -30px;
+	padding: 10px;
+}
+
+footer {
+	text-decoration: none;
+	text-align: left;
+	padding: 10px;
+	background-color: orange;
+	list-style-type: none;
+}
+
+.box {
+	width: 80px;
+	padding: 5px;
+	height:80px;
+	display: inline-block;
+	vertical-align: top;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	margin: 0 auto;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.highlight {
+	color: orange;
+	font-size: 13pt;
+}
+
+.SuperSuperSuperSecret {
+	cursor:help;
+}
+
+/*ANIMATIONS*/
+/*
+@keyframes fade {
+	0%{color:white;}
+	5%{color: purple;}
+	100%{color:orange;}
+}
+*/
